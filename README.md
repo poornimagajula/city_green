@@ -4,10 +4,10 @@ It's an NGO, to provide plants according to your free time,
 by using **City Green** can tell us about your voluntary time to do for Plantation.
 
 # Requirements
-1. Volunteer Sign-Up page.
-2. Volunteer Sign-In page.
-3. Admin Sign-In page.
-4. Planting followup form.
+I.   Volunteer Sign-Up page.
+II.  Volunteer Sign-In page.
+III. Admin Sign-In page.
+IV.  Planting followup form.
 
 # Use Cases
 
@@ -27,12 +27,12 @@ by using **City Green** can tell us about your voluntary time to do for Plantati
    #### 2.2 Alternative Flow - SignUP
       User Already Exist. 
       If the User ID is alreaady exists in the Basic flow Signup, the system shows User already exist 
-      try another UserID/MailID.
+      try another UserID/MailID/Phonenumber.
       
   ## II.Volunteer Sign-In
  
  ### 1.Brief Description
-      This Use Case describes how a Volunteer Sign-In into the City Green form.
+      This Use Case describes how a Volunteer Sign-In into the City Green Application.
       
  ### 2.Flow Of Events
       The Use Case begins when the Volunteer types her/his Userid/mail/phonenumber and Password      
@@ -44,7 +44,7 @@ by using **City Green** can tell us about your voluntary time to do for Plantati
       
    #### 2.2 Alternative Flow - SignIn
       Invalid Username / Password. 
-      If the Userid/mail/phonenumber and Password is incorrect in the Basic flow Signup, the system shows Invalid 
+      If the Userid/mail/phonenumber and Password is incorrect in the Basic flow Signin, the system shows Invalid 
       Credentials and takes him/her into Login page again.
       
  ### 3. Special Requirements
@@ -54,7 +54,28 @@ by using **City Green** can tell us about your voluntary time to do for Plantati
  ### 5. Post Conditions
      There are no post conditions associated with this Use Case.
      
-     
+## III.Admin Sign-In
+ 
+ ### 1.Brief Description
+      This Use Case describes how an Admin Sign-In into the City Green Application.
+      
+ ### 2.Flow Of Events
+      The Use Case begins when the Admin types her/his Userid/mail/phonenumber and Password
+      
+   #### 2.1 Basic Flow - SignIn
+      The System receives the Admin Input fields and takes his/her details into Configuration, and 
+      takes Admin in to Planting Slot Page.
+      
+   #### 2.2 Alternative Flow - SignIn
+      Inavalid Adminid / Password. 
+      If the Adminid/mail/phonenumber and Password is incorrect in the Basic flow SignIn, the system shows Invalid 
+      Credentials and takes him/her into Admin Login page again.
+ ### 3. Special Requirements
+     There are no special requirements associated with this Use Case.
+ ### 4. Pre Conditions
+     There are no pre conditions associated with this Use Case.
+ ### 5. Post Conditions
+     There are no post conditions associated with this Use Case.
 
 # Design
 
