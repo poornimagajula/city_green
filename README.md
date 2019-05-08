@@ -28,14 +28,15 @@ by using **City Green** can tell us about your voluntary time to do for Plantati
       User Already Exist. 
       If the User ID is alreaady exists in the Basic flow Signup, the system shows User already exist 
       try another UserID/MailID.
-  
+      
   ## II.Volunteer Sign-In
  
  ### 1.Brief Description
       This Use Case describes how a Volunteer Sign-In into the City Green form.
       
  ### 2.Flow Of Events
-      The Use Case begins when the Volunteer types her/his Userid/mail/phonenumber and Password on the Sign-In form.
+      The Use Case begins when the Volunteer types her/his Userid/mail/phonenumber and Password      
+      on the Sign-In form.
       
    #### 2.1 Basic Flow - SignIn
       The System validates the Volunteer's user_id and password and logs him/her into the Application and 
@@ -43,8 +44,17 @@ by using **City Green** can tell us about your voluntary time to do for Plantati
       
    #### 2.2 Alternative Flow - SignIn
       Invalid Username / Password. 
-      If the User ID is alreaady exists in the Basic flow Signup, the system shows User already exist 
-      try another UserID/MailID.
+      If the Userid/mail/phonenumber and Password is incorrect in the Basic flow Signup, the system shows Invalid 
+      Credentials and takes him/her into Login page again.
+      
+ ### 3. Special Requirements
+     There are no special requirements associated with this Use Case.
+ ### 4. Pre Conditions
+     There are no pre conditions associated with this Use Case.
+ ### 5. Post Conditions
+     There are no post conditions associated with this Use Case.
+     
+     
 
 # Design
 
