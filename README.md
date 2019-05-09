@@ -80,5 +80,11 @@ by using **City Green** can tell us about your voluntary time to do for Plantati
 # Design
 
 # Table
+ ## Users Table - Structure
+
+| first_name     | second_name    | user_id | mail     | contact_number    | location | gender    | password |
+| --------|---------|-------| --------|---------|-------| --------|---------|
+| sam  | chay   | samchay@786   | char.sam@gmail.com  | 9999999999   | Indiranagar    | Male  | user@123   | 
+| damon | salvetor | damon@1921   | crazy@gmail.com  | 8888888888   | Whitefield    | Male  | test@123   | 
 
 # Test Cases
